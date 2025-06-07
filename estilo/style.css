@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(238, 191, 4);
+    padding: 0px;
+}
+
+* {
+    margin: 0px;
+}
+header {
+    background-color: rgb(238, 191, 4);
+    background-image: linear-gradient(to right, rgb(238, 191, 4), rgb(74, 74, 245));
+
+}
+header > h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(70, 42, 0);
+    text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.322);
+    font-variant: small-caps;
+}
+header > p {
+    padding: 10px;
+    color: rgb(70, 48, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2.h2form {
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(187, 2, 2);
+}
+h3.h3form {
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(187, 2, 2);
+}
+#image1 {
+    background-color: white;
+}
+#image2 {
+    background-color: white;
+}
+span > P {
+    width: 200px;
+    padding: 10px;
+    color: rgba(75, 33, 4, 0.925);
+    text-align: center;
+    background-color: rgb(255, 123, 0);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.562);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.lista {
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 2px 0px black;
+}
+.paragrafo {
+    color: rgb(85, 51, 1);
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px black;
+
+}
+#h4 {
+    padding: 10px;
+    color: rgb(170, 46, 2);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+section > p {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 2px 1px white;
+}
+#image1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+#image2 {
+    background-image: url(imagens/Gucci-PNG-Image-HD.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#image3 {
+    background-image: url(imagens/wallpaper004.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.div {
+    font-family: verdana;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.div3 {
+    color: rgb(78, 58, 2);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 1px 2px 0px rgb(141, 141, 141);
+    padding: 10px;
+}
+a:hover {
+    color: rgb(86, 86, 255);
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(0, 26, 255);
+}
+a:visited {
+    color: black;
+    
+}
+p > a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+} 
+footer {
+    background-color: black;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
