@@ -135,6 +135,28 @@ p > a {
     text-decoration: none;
     font-weight: bold;
 } 
+#conteudo {
+    font-family: verdana;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    background-color: rgba(252, 206, 3, 0.418);
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-image: url(imagens/Imagem1\ .jpg)
+}
+ article > p > strong {
+    color: rgb(255, 10, 10);
+}
+article > p > em {
+    color: blue;
+}
 footer {
     background-color: black;
     text-align: center;
