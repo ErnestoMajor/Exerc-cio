@@ -5,31 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The evolution of Fashion Modell</title>
     <style>
+     
         body {
-            background-color: rgb(96, 96, 255);
+            background-color: rgb(170, 131, 3);
+            max-width: 1500px;
         }
-        div > h1 {
+        .cabeça > h1 {
             background-color: rgb(57, 57, 250);
             padding: 10px;
             text-shadow: 1px 2px 0px white;
             font-family: fantasy;
 
         }
-        .div {
+        .cabeça {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
-        div > p {
-            padding: 10px;
+        .cabeça > p {
+            padding: 30px;
             font-weight: bold;
+            color: rgb(253, 186, 1);
+            text-shadow: 1px 1px 0px black;
         }
         #form {
-            padding: 10px;
             font-weight: bold;
+            color: rgb(253, 186, 1);
+            text-shadow: 1px 1px 0px black;
+            padding: 30px;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #form > p > strong {
+            color: rgb(71, 55, 0);
         }
         #section {
-            padding: 10px;
+            padding: 30px;
             font-weight: bold;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(253, 186, 1);
+            text-shadow: 1px 1px 0px black;
+            
         }
         .image1 {
             background-image: url(estilo/imagens/wallpaper002.jpg);
@@ -51,20 +63,13 @@
             text-shadow: 1px 1px 0px black;
         }
         .image2 > em {
-            padding: 10px;
-        }
-        ol {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: large;
-            font-weight: bold;
-            padding: 40px;
-            background-color: rgb(26, 26, 172);
-            width: 400px;
-            box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.568);
+            padding: 10px;            
         }
         img.image {
-            padding: 10px;
+            padding: 5px;
+            margin: 20px;
             border-radius: 30px;
+            background-color: rgb(136, 190, 240);
         }
         * {
             margin: 0px;
@@ -87,22 +92,58 @@
             text-decoration: none;
             font-weight: bold;
         }
-        p {
+        .paragrafo {
+            padding: 10px;
+            text-shadow: 1px 1px 0px white;
+            font-weight: bold;
+            font-size: large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .especial > p {
+            text-shadow: 1px 1px 0px white;   
             padding: 15px;
             font-weight: bold;
             font-size: large;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
-        .paragrafo {
-            padding: 10px;
+        .especial > ol {
+            padding: 30px;
+            margin: auto;
+            max-width: 600px;
+            width: 400px;
+            background-color: rgba(0, 0, 255, 0.507);
+            border-radius: 10px;
+            box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.363);
+            text-shadow: 1px 0px 0px rgba(255, 255, 255, 0.534);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-weight: bold;
             font-size: large;
+            
+        }
+        #diferent {
+            font-weight: bold;
+            color: rgb(253, 186, 1);
+            text-shadow: 1px 1px 0px black;
+            padding: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #diferent > p > strong {
+            color: rgb(71, 55, 0);
+        }
+        .ernest {
+            max-width: 600px;
+        }
+        .p {
+            font-weight: bold;
+            color: rgb(253, 186, 1);
+            text-shadow: 1px 1px 0px black;
+            padding: 30px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
     </style>
 </head>
 <body>
-<div class="div">
+<div class="cabeça">
     <h1>As marcas de roupas mais famosas do mundo</h1>
 
     <p>Tudo mundo precisa se vestir e isso acaba dizendo muito <br> sobre sua personalidade. Saber explorar esse detalhe é o que faz toda diferença <br> na hora de criar uma marca de roupa famosa.</p><br>
@@ -141,7 +182,7 @@
 </div>
 <br>
 
-<div class="image2">
+<div class="image2" id="diferent">
     <p>
         Vale, portanto, se aprofundar no que cada uma das marcas <br> de roupas mais famosas do mundo têm feito para alcançar o topo desse <br> ranking e, principalmente, para manter-se entre as mais populares.
 
@@ -151,7 +192,7 @@
     </p>
 </div><br>
 
-<div>
+<div class="especial">
     <p>Veja as 10 marcas de roupas mais famosas do mundo:</p><br>
 
     <ol start="1">
@@ -178,7 +219,8 @@
     </ol>
 </div>
 
-<img class="image" src="estilo/imagens/Imagem do WhatsApp de 2025-06-07 à(s) 16.48.40_55aae2e9.jpg" alt="Louis Vuitton">
+<img class="image" src="estilo/imagens/Imagem.lv1.jpg" alt="Louis Vuitton">
+<img class="image" id="imagegg" src="estilo/imagens/Gucci.jpg" alt="Gucci">
 
 <section class="paragrafo">
     <article>
@@ -205,10 +247,10 @@
 
 <br>
 
-<p>E se você tem uma empresa relacionada coma área da moda (ou qualquer outra) e precisa <br> criar uma marca, slogan ou mesmo um nome, com qualidade, rapidez e um <br> preço justo, pode contar com a We Do </p>
+<p class="p">E se você tem uma empresa relacionada coma área da moda (ou qualquer outra) e precisa <br> criar uma marca, slogan ou mesmo um nome, com qualidade, rapidez e um <br> preço justo, pode contar com a We Do </p>
 
-<div>
-    <img class="image" src="estilo/imagens/Ernesto.M.Q2.jpg" alt="">
+<div class="ernest">
+    <img class="image" src="estilo/imagens/Ernesto.M.Q.jpg" alt="">
 </div>
 
 <p>
