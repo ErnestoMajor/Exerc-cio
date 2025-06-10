@@ -154,14 +154,16 @@ p > a {
     border-radius: 20px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 200px;
-    background-image: url(imagens/Imagem1\ .jpg)
+    background-size: cover;
+    background-image: url(imagens/Gucci.jpg)
 }
  article > p > strong {
-    color: rgb(255, 10, 10);
+    color: rgb(199, 0, 0);
+    text-shadow: 1px 1px 0px white;
 }
 article > p > em {
-    color: blue;
+    color: rgb(16, 16, 211);
+    text-shadow: 1px 1px 0px white;
 }
 footer {
     font-size: 2vw;
