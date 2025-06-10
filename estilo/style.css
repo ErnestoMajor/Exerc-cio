@@ -103,9 +103,10 @@ section > p {
     background-color: rgb(53, 53, 255);
 }
 #image3 {
-    background-image: url(imagens/wallpaper004.jpg);
+    background-image: url(imagens/pattern002.png);
     background-repeat: no-repeat;
     background-size: cover;
+    text-shadow: 1px 1px 0px black;
     background-attachment: fixed;
 }
 .div {
@@ -116,7 +117,7 @@ section > p {
     padding: 10px;
 }
 .div3 {
-    color: rgb(78, 58, 2);
+    color: rgb(221, 163, 5);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 2.5vw;
