@@ -2,7 +2,7 @@
 
 body {
     background-color: rgb(238, 191, 4);
-    padding: 0px;
+    max-width: 1500px;
 }
 
 * {
@@ -14,6 +14,7 @@ header {
 
 }
 header > h1 {
+    font-size: 6vw;
     text-align: center;
     padding-top: 20px;
     color: rgb(70, 42, 0);
@@ -21,32 +22,29 @@ header > h1 {
     font-variant: small-caps;
 }
 header > p {
+    font-size: 2.5vw;
     padding: 10px;
     color: rgb(70, 48, 0);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h2.h2form {
+    font-size: 3.5vw;
     padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
     font-weight: bolder;
     color: rgb(187, 2, 2);
 }
 h3.h3form {
+    font-size: 4vw;
     padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
     font-weight: bolder;
     color: rgb(187, 2, 2);
 }
-#image1 {
-    background-color: white;
-}
-#image2 {
-    background-color: white;
-}
+
 span > P {
     width: 200px;
+    font-size: 2.5vw;
     padding: 10px;
     color: rgba(75, 33, 4, 0.925);
     text-align: center;
@@ -58,12 +56,14 @@ span > P {
 }
 .lista {
     color: white;
+    font-size: 2.5vw;
     font-weight: bold;
     text-shadow: 1px 2px 0px black;
 }
 .paragrafo {
     color: rgb(85, 51, 1);
     padding: 10px;
+    font-size: 2.5vw;
     text-align: center;
     font-weight: bold;
     text-shadow: 1px 1px 0px black;
@@ -72,7 +72,7 @@ span > P {
 #h4 {
     padding: 10px;
     color: rgb(170, 46, 2);
-    font-size: large;
+    font-size: 2.5vw;
     font-family: 'Times New Roman', Times, serif;
 }
 section > p {
@@ -80,9 +80,10 @@ section > p {
     padding: 10px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+    font-weight: lighter;
+    font-size: large;
     color: rgb(0, 0, 0);
-    text-shadow: 1px 2px 1px white;
+    text-shadow: 1px 0px 0px white;
 }
 #image1 {
     background-image: url(imagens/background001.jpg);
@@ -90,6 +91,7 @@ section > p {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-color: rgb(53, 53, 255);
    
 }
 #image2 {
@@ -98,6 +100,7 @@ section > p {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-color: rgb(53, 53, 255);
 }
 #image3 {
     background-image: url(imagens/wallpaper004.jpg);
@@ -106,6 +109,7 @@ section > p {
     background-attachment: fixed;
 }
 .div {
+    font-size: 2.5vw;
     font-family: verdana;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
@@ -115,7 +119,7 @@ section > p {
     color: rgb(78, 58, 2);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    
+    font-size: 2.5vw;
     padding: 10px;
 }
 a:hover {
@@ -131,6 +135,7 @@ a:visited {
 }
 p > a {
     padding: 10px;
+    font-size: 2vw;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -138,7 +143,7 @@ p > a {
 #conteudo {
     font-family: verdana;
     font-weight: bold;
-    font-size: large;
+    font-size: 2.5vw;
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
     background-color: rgba(252, 206, 3, 0.418);
@@ -158,9 +163,10 @@ article > p > em {
     color: blue;
 }
 footer {
+    font-size: 2vw;
     background-color: black;
     text-align: center;
     color: rgb(255, 255, 255);
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
